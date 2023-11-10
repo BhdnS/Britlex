@@ -1,0 +1,98 @@
+@import './components/variable.scss';
+
+.footer {
+
+	&_container {
+		padding: 26px 0px 46px 0px;
+		gap: 15px;
+	}
+
+	&_content {
+		gap: 2px;
+	}
+
+	&_circle {
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: $main-content;
+	}
+}
+
+@media (min-width: 575px) {
+	
+	.footer {
+
+		&_container {
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 24px 0px 26px 0px;
+		}
+
+		&_title {
+			font-size: 3rem;
+		}
+
+		&_text {
+			font-size: 12px;
+		}
+
+		&_content {
+			gap: 5px;
+		}
+
+	}
+
+}
+
+@media (min-width: 767px) {
+	
+	.footer {
+
+		&_container {
+			padding: 18px 0px 15px 0px;
+		}
+
+		&_text {
+			font-size: 1.3rem;
+		}
+
+	}
+
+}
+
+@media (min-width: 992px) {
+	
+	.footer {
+
+		&_container {
+			padding: 22px 0px 24px 0px;
+		}
+
+		&_text {
+			font-size: 1.6rem;
+		}
+
+	}
+
+}
+
+@media (min-width: 1124px) {
+	
+	.footer {
+
+		&_container {
+			padding: 31px 0px 34px 0px;
+		}
+
+		&_title {
+			font-size: 3.6rem;
+		}
+
+		&_text {
+			font-size: 2.4rem;
+		}
+
+	}
+
+}
