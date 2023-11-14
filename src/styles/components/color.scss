@@ -1,0 +1,37 @@
+@import './variable.scss';
+
+.c-b {
+	color: $black;
+}
+
+.c-g {
+	color: $grey;
+}
+
+.c-n {
+	color: $nav;
+}
+
+.m-c {
+	color: $main-content;
+}
+
+.btn-bg {
+	background-color: $nav;
+}
+
+.c-w {
+	color: $white;
+}
+
+.c-c {
+	color: $count-color;
+}
+
+.c-bs {
+	color: $btn-span;
+}
+
+.pricing-btn-bg {
+	background-color: $btn-bg;
+}

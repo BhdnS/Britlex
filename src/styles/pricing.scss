@@ -1,0 +1,189 @@
+@import './components/variable.scss';
+
+.pricing {
+
+	&_title {
+		line-height: 8rem;
+	}
+
+	&_box {
+		gap: 60px;
+	}
+
+	&_card {
+		max-width: 241px;
+		width: 100%;
+		gap: 20px;
+	}
+
+	&_card-img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	&_card-text {
+		line-height: normal;
+		text-align: center;
+	}
+
+	&_card-btn {
+		padding: 5px 12px;
+		border-radius: 5px;
+		transition: .5s ease-in-out;
+		gap: 5px;
+
+		&:active {
+			background-color: $grey;
+			transition: .5s ease-in-out;
+		}
+	}
+}
+
+@media (min-width: 575px) {
+	
+	.pricing {
+
+		&_title {
+			font-size: 3rem;
+		}
+
+		&_card-title {
+			font-size: 2.4rem;
+		}
+
+		&_card-text {
+			font-size: 1.4rem;
+		}
+
+		&_card-btn {
+			font-size: 2.2rem;
+		}
+
+		&_card-btn-text {
+			font-size: 1.6rem;
+		}
+
+		&_card {
+			max-width: 325px;
+		}
+
+		&_box {
+			gap: 70px;
+		}
+
+	}
+
+}
+
+@media (min-width: 767px) {
+	
+	.pricing {
+		&_card-title {
+			font-size: 2rem;
+			max-width: 150px;
+		}
+
+		&_title {
+			margin-bottom: 31px;
+		}
+
+		&_box {
+			flex-direction: row;
+			justify-content: space-around;
+			gap: 25px;
+			max-width: 100%;
+			width: 100%;
+			align-items: stretch;
+		}
+
+		&_card {
+			gap: 20px;
+			max-width: 200px;
+			align-items: stretch;
+			justify-content: space-between;
+		}
+
+		&_card-box {
+			justify-content: space-between;
+			align-items: start;
+		}
+
+		&_card-text {
+			text-align: left;
+			flex: 1 1 100%;
+		}
+
+		&_card-btn {
+			margin-top: auto;
+		}
+		
+	}
+
+}
+
+@media (min-width: 992px) {
+	
+	.pricing {
+
+		&_card {
+			max-width: 280px;
+		}
+
+		&_title {
+			font-size: 3.8rem;
+			margin-bottom: 47px;
+		}
+
+		&_card-title {
+			font-size: 2.2rem;
+			max-width: 100%;
+		}
+
+		&_card-text {
+			font-size: 1.6rem;
+		}
+
+		&_card-btn {
+			justify-content: center;
+			gap: 10px;
+			font-size: 2.4rem;
+			&:hover {
+				background-color: $grey;
+				transition: .5s ease-in-out;
+			}
+		}
+
+	}
+
+}
+
+@media (min-width: 1124px) {
+	
+	.pricing {
+
+		&_title {
+			font-size: 4.8rem;
+		}
+
+		&_card-title {
+			font-size: 3rem;
+		}
+
+		&_card-text {
+			font-size: 2rem;
+		}
+
+		&_card-btn {
+			font-size: 3rem;
+		}
+
+		&_card-btn-text {
+			font-size: 1.8rem;
+		}
+
+		&_card {
+			max-width: 372px;
+		}
+	}
+
+}
